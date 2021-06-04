@@ -13,10 +13,7 @@ public class oneALV {
         driver.get("https://www.1a.lv/");
         driver.findElement(By.id("q")).sendKeys("lenovo");
         driver.findElement(By.xpath("//button[@class='main-search-submit']")).click();
-
-
-
-
+        driver.findElement(By.xpath("//div[@class='/p/klepjdators-lenovo-ideapad-3-17-platinum-gray-81w20017pb-pl-amd-athlon-4gb-256gb-17-3/8v7u']")).click();
 
     }
 }
